@@ -192,6 +192,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &607267635 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114612552004270744, guid: d29b9521a1c3e9542a29d96218fa2576,
+    type: 2}
+  m_PrefabInternal: {fileID: 1661000485}
+  m_Script: {fileID: 11500000, guid: 7524f6b308174234fb6e5ad6c173b20e, type: 3}
 --- !u!1 &647552216
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,6 +354,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 926569174}
+  - component: {fileID: 926569175}
   m_Layer: 0
   m_Name: Headset
   m_TagString: Untagged
@@ -369,6 +376,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &926569175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 926569173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90e769dffcf4cbd4cab8d726eeefb430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p: {fileID: 607267635}
 --- !u!1 &964277858
 GameObject:
   m_ObjectHideFlags: 0
