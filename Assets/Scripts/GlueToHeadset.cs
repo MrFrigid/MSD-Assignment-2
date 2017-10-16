@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class GlueToHeadset : MonoBehaviour {
+
+	public GameObject HeadSet;
 
 	// Use this for initialization
 	void Start () {
@@ -11,6 +13,6 @@ public class NewBehaviourScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		transform.position = HeadSet.transform.position + Vector3.forward - Vector3.up;
 	}
 }
