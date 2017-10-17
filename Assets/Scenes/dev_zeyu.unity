@@ -611,11 +611,6 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114352011054066456, guid: d29b9521a1c3e9542a29d96218fa2576,
         type: 2}
-      propertyPath: HeadSet
-      value: 
-      objectReference: {fileID: 926569173}
-    - target: {fileID: 114352011054066456, guid: d29b9521a1c3e9542a29d96218fa2576,
-        type: 2}
       propertyPath: Camera
       value: 
       objectReference: {fileID: 964277858}
