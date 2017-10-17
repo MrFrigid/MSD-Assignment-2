@@ -18,7 +18,7 @@ public class GlueToHeadset : MonoBehaviour {
 		Debug.Log (Camera.transform.up);
 
 		transform.position =  Camera.transform.position+  Camera.transform.forward*3f -  Camera.transform.up;
-		transform.rotation = transform.rotation*Camera.transform.rotation;
+		//transform.rotation = transform.rotation*Camera.transform.rotation;
 		Debug.Log (transform.position);
 	}
 }

@@ -16,14 +16,19 @@ public class Pointer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-		//Debug.Log (transform.position);
-		Debug.Log (transform.forward);
+
+        //Debug.Log (transform.position);
+
+        Debug.Log("pointer");
+        Debug.Log (transform.forward);
+        
 		Ray ray = new Ray (transform.position,transform.forward);
 		RaycastHit hit;
+        Debug.Log("ray");
+        Debug.Log(ray.direction);
 
 
-		if (Physics.Raycast (ray, out hit, Mathf.Infinity)) {
+        if (Physics.Raycast (ray, out hit, Mathf.Infinity)) {
 			Debug.DrawLine (ray.origin, hit.point, Color.red);
 			target = hit.collider.gameObject;
 			HitPoint = hit.point;
