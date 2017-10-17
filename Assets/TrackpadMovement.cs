@@ -13,7 +13,6 @@ public class TrackpadMovement : MonoBehaviour {
     void Start()
     {
         mycamera = transform.Find("Main Camera");
-
     }
 
     // Update is called once per frame
@@ -29,13 +28,13 @@ public class TrackpadMovement : MonoBehaviour {
             Quaternion q = Quaternion.FromToRotation(Vector3.forward, temp_dir);
             direction = q * direction;
             direction = direction.normalized * speed;
-            mycamera.Translate(direction * Time.deltaTime);
+            transform.Translate(direction * Time.deltaTime);
         }
-        */
         
+        /*
         if (GvrControllerInput.IsTouching)
         {
-            speed = 5;
+            speed = 3;
             direction = Vector3.ProjectOnPlane(mycamera.forward, Vector3.up).normalized;
             temp_dir = new Vector3(0, 0, 1);
             temp_dir = temp_dir.normalized;
