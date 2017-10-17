@@ -41,7 +41,7 @@ Transform:
   m_GameObject: {fileID: 1630498661533482}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.871, z: 0}
-  m_LocalScale: {x: 1, y: 0.5864362, z: 1.721372}
+  m_LocalScale: {x: 0.32747173, y: 0.19204131, z: 0.56370074}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1e410e8f729aa04ab882fd3d876e37a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadSet: {fileID: 0}
+  Camera: {fileID: 0}
 --- !u!114 &114612552004270744
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PointDot: {fileID: 0}
   target: {fileID: 0}
-  HitPoint: {x: 0, y: 0, z: 0}
+  HitPoint: {x: 0.47514394, y: 0.92831206, z: -4.1743126}
 --- !u!120 &120467117868699972
 LineRenderer:
   m_ObjectHideFlags: 1

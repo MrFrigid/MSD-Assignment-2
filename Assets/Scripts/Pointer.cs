@@ -16,11 +16,15 @@ public class Pointer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.rotation=GvrControllerInput.Orientation;
-		Ray ray = new Ray (transform.position, transform.forward);
+		
+		//Debug.Log (transform.position);
+		Debug.Log (transform.forward);
+		Ray ray = new Ray (transform.position,transform.forward);
 		RaycastHit hit;
 
+
 		if (Physics.Raycast (ray, out hit, Mathf.Infinity)) {
+			Debug.DrawLine (ray.origin, hit.point, Color.red);
 			target = hit.collider.gameObject;
 			HitPoint = hit.point;
 			PointDot.SetActive (true);
@@ -31,6 +35,6 @@ public class Pointer : MonoBehaviour {
 			PointDot.SetActive (false);
 			//line.SetPosition (0, Vector3.forward * 100f);
 		}
-
+		transform.rotation=GvrControllerInput.Orientation;
 	}
 }
