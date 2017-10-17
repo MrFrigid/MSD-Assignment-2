@@ -141,7 +141,7 @@ PlayerSettings:
   targetPixelDensity: 0
   resolutionScalingMode: 0
   applicationIdentifier:
-    Android: com.myVR.assignment2
+    Android: com.myVR.task3
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 24
@@ -595,9 +595,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: a3db4fa6-eaef-4949-ac00-a2c0ad9640df
-  projectName: New Unity Project (1)
-  organizationId: mrfrigid
+  cloudProjectId: 24dfa8fc-c481-4e94-a26e-61cd82ffacea
+  projectName: New Unity Project (2)
+  organizationId: yangyiming0516
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
