@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,8 +17,10 @@ public class GlueToHeadset : MonoBehaviour {
 		//Debug.Log (Camera.transform.forward);
 		//Debug.Log (Camera.transform.up);
 
-		transform.position =  Camera.transform.position+  Camera.transform.forward*2.5f -  Camera.transform.up;
-		transform.rotation = transform.rotation*Camera.transform.rotation;
-		//Debug.Log (transform.position);
+
+		transform.position =  Camera.transform.position+  Camera.transform.forward*3f -  Camera.transform.up;
+		//transform.rotation = transform.rotation*Camera.transform.rotation;
+		Debug.Log (transform.position);
+
 	}
 }
